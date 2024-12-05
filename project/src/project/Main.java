@@ -1,10 +1,18 @@
 package project;
 
+import java.util.Random;
+
 public class Main {
 
 	public static void main(String[] args) {
 		
-		int[] numbers = { 1, 2, 3, 4, 5 };
+		int[] numbers = new int[10];
+		
+		Random random = new Random();
+		
+		for(int i=0; i<numbers.length; i++) {
+			numbers[i] = random.nextInt(101);
+		}
 		
 		System.out.println("Table elements:");
 		for (int number : numbers) {
