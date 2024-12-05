@@ -6,7 +6,8 @@ import java.util.Random;
 public class Main {
 
 	public static void main(String[] args) {
-		
+		System.out.println("talha was here!");
+
 		int[] numbers = new int[10];
 		
 		Random random = new Random();
@@ -29,3 +30,4 @@ public class Main {
 	}
 
 }
+
