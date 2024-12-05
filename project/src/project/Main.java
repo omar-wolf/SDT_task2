@@ -1,5 +1,6 @@
 package project;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Main {
@@ -15,6 +16,12 @@ public class Main {
 		}
 		
 		System.out.println("Table elements:");
+		for (int number : numbers) {
+			System.out.println(number);
+		}
+		
+		Arrays.sort(numbers);
+		System.out.println("Table elements after sorting:");
 		for (int number : numbers) {
 			System.out.println(number);
 		}
